@@ -78,4 +78,8 @@ textarea{
     .hour { 
         padding-right: 15%
     }
+
+    div {
+        display: block;
+    }
 }
