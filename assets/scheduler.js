@@ -1,6 +1,6 @@
 // need to display day and date
 $(document).ready(function() {
-  var todayDate = moment().format('dddd, MMM, Do YYYY');
+  var todayDate = moment().format('dddd, MMM, Do YYYY, h:mm:ss a');
   let currentHour = moment().format("HH");
 
   $("#clearFieldsBtn").click(function (event) {
